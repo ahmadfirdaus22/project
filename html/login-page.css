@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Gambar/kontainer.jpg");
+}
+
+.tengah{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 440px;
+    margin-right: 440px;
+    text-align: center;
+}
+
+.tengah{
+    font-size: 20px;
+}

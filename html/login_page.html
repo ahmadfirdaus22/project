@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProduct-Login</title>
+    <link rel="icon" href="../Gambar/icon.png">
+    <link rel="stylesheet" href="login-page.css">
+    <script>
+        function show(){
+            var x = document.getElementById("p");
+            if (x.type== "password"){
+                x.type = "text";
+            }
+            else {
+                x.type = "password";
+            }
+        }
+        
+        // alert(a);
+        const a = document.getElementById("u");
+        const b = document.getElementById("p");
+        if (a==b){
+            alert (a);
+            // function masuk(){
+            //     window.location.href = "Landing_page.html"
+            // }
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="tengah">
+        <form>
+            <br>
+            <h1 style="text-align: center;text-decoration: underline;">Login</h1>
+            <h3>Username</h3>
+            <input id="u" type="text" name="user" placeholder="Masukan Username" style="height: 30px; width: 300px;border-radius: 30px; text-align: center; font-size: 25px;">
+            <br>
+            <h3>Password</h3>
+            <input id="p" type="password" name="pass" placeholder="Masukan Password" style="height: 30px; width: 300px;border-radius: 30px; text-align: center; font-size: 25px;border-color: #00824a;">
+            <br><input type="checkbox" onclick="show()">Show Password
+            <br>
+            <br>
+            <input onclick="masuk()" type="submit" style="height: 40px; width: 150px;border-radius: 10px; text-align: center; font-size: 25px;">
+            <br><br>
+        </form>
+    </div>
+</body>
+
+</html>

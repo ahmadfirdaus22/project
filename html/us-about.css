@@ -1,0 +1,34 @@
+.awal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.nav-link{
+    color: #00824a;
+    margin-right: 30px;
+}
+
+.isi{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 120px;
+}
+
+.isi h1{
+    text-align: center;
+}
+
+.isi p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.konten h4{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.konten p{
+    padding-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
